@@ -1,5 +1,7 @@
 body{
     padding:0px;
+    display:flex;
+    flex-direction:column;
 }
 
 
@@ -148,7 +150,7 @@ a{
     color:white;
     font-size:10px;
     flex:1;
-body{
-    display:flex;
-    flex-direction:column;
 }
+
+
+
