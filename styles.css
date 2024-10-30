@@ -140,10 +140,15 @@ a{
 
 .footer{
     padding:20px;
-    margin:auto;
+    
     display:flex;
     justify-content:center;
     background-color:#1F2937;
     color:white;
     font-size:10px;
+    ;
+}
+body{
+    display:flex;
+    flex-direction:column;
 }
