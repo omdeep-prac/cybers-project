@@ -1,0 +1,149 @@
+body{
+    padding:0px;
+}
+
+
+.header{
+    min-height:50px;
+    background-color:#1F2937;
+    display:flex;
+    align-content:center;
+    padding:15px;
+    align-items:center;
+    border-style:solid;
+;
+    border-color:black;
+    
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    color:#E5E7EB;
+    padding:0;
+    margin:0;
+    gap:8px;
+    
+}
+
+.right-header{
+    margin-left:auto;
+    
+}
+
+.left-header{
+    color:white;
+}
+
+.second{
+    background-color:#1F2937;
+    display:flex;
+    max-height:500px;
+}
+
+button{
+    background-color:#3882F6 ;
+    color:white;
+    max-width:100px;
+    align-items:center;
+    margin:auto;
+    
+}
+
+.sec-one{
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:space-evenly;
+    gap:8px;
+    max-width:400px;
+    padding:50px;
+
+
+}
+
+.sec-text{
+    font-size:48px;
+    font-weight:900;
+
+}
+
+.sec-stext{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.sec-two{
+    padding:0;
+    justify-content:center;
+    align-content:center;
+    margin:auto;
+    display:flex;
+    flex:1;
+}
+
+.third{
+
+}
+
+.thi-title{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:900;
+    display:flex;
+    padding:30px;
+    justify-content:center;
+
+}
+.problems{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    gap:52px;
+    flex-wrap:nowrap;
+    margin-bottom:80px;
+
+}
+
+.info{
+    max-width: 200px;
+}
+
+.fourth{
+    background-color:#ADD8E6;
+    font-style:italic;
+    font-size:18px;
+    color:#333333;
+    font-family:'Roboto',sans-serif;
+    padding;100px;
+    
+    
+
+}
+
+.four-text{
+    PADDING:10PX;
+
+}
+
+.but{
+    color:black;
+    padding:10px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    
+}
+
+.footer{
+    padding:20px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    background-color:#1F2937;
+    color:white;
+    font-size:10px;
+}
