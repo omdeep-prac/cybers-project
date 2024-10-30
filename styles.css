@@ -84,7 +84,7 @@ button{
     flex:1;
 }
 
-.third{flex:1
+.third{flex:2
 
 }
 
@@ -118,7 +118,7 @@ button{
     color:#333333;
     font-family:'Roboto',sans-serif;
     padding;100px;
-    flex:1;
+    flex:2;
     
 
 }
@@ -147,8 +147,7 @@ a{
     background-color:#1F2937;
     color:white;
     font-size:10px;
-    ;
-}
+    flex:1;
 body{
     display:flex;
     flex-direction:column;
