@@ -2,6 +2,8 @@ body{
     padding:0px;
     display:flex;
     flex-direction:column;
+    height:100vw;
+    width:100vw;
 }
 
 
@@ -149,7 +151,7 @@ a{
     background-color:#1F2937;
     color:white;
     font-size:10px;
-    flex:1;
+    flex:0;
 }
 
 
