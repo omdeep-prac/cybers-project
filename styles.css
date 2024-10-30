@@ -41,7 +41,7 @@ ul{
     background-color:#1F2937;
     display:flex;
     max-height:500px;
-    flex:1;
+    flex:4;
 }
 
 button{
@@ -86,7 +86,7 @@ button{
     flex:1;
 }
 
-.third{flex:2
+.third{flex:4
 
 }
 
@@ -120,7 +120,7 @@ button{
     color:#333333;
     font-family:'Roboto',sans-serif;
     padding;100px;
-    flex:2;
+    flex:1;
     
 
 }
