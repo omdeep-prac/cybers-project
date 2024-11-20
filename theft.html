@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .First{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sec-one{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #list{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+    margin: 10px 10px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 1050px) {
+  label.logo {
+    padding-left: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+/* Responsive media query code for small screen */
+@media (max-width: 890px) {
+  .checkbtn {
+    display: block;
+  }
+  label.logo {
+    font-size: 22px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked~ul {
+    left: 0;
+  }
+}
+section {
+  background: url("bg.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+    </style>
+</head>
+<body><nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo">Financial Theft</label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    </nav>
+    <div class="First"><div><h1 style="color:black; font-size: 50px;text-align: center; margin-right: 500px; margin-left: 500px;" >Financial Theft</h1><p style="font-size: 40px; margin-left: 20px; margin-right: 20px;" >An online scam is a deception carried out over the internet with the aim of tricking individuals into giving away personal, financial, or other sensitive information, or directly stealing their money.Online scams can take many forms, from phishing messages and fake online marketplaces to elaborate fraudulent dating profiles and too-good-to-be-true investment deals.</p></div>
+    <div><img src="https://omdeep-prac.github.io/cybers-project/financial.avif" alt="Hacking image" height="450px" width="450px" style="margin-left: 50px; margin-right: 80px; margin-top: 75px;"></div>
+    </div>
+
+    <div><h1 style="text-align: center; font-size: 35px;">Tips to avoid online scams in your account</h1></div>
+    <div class="second">
+        <div>
+            <h3 style="font-size: 30px;">1. Keep Financial Data Separate</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">For business users in particular, use a dedicated work station to perform all company banking activity.</li>
+                    <li id="list"> Use other computers to access the Internet and conduct non-banking business. When it’s time to retire the computer that was used to access company banking</li>
+                    <li id="list">be sure to back up all sensitive information  and erase the hard drive before recycling it.</li>
+                </ul></div>
+                <div><img src="https://precisa.in/wp-content/uploads/2023/02/What-Are-the-5-Key-Components-of-Financial-Data-Analysis.jpg" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">2. Know Who is Asking</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">As a general rule of thumb, banks do not send emails or text messages that ask for personal information such as account and/or social security numbers </li>
+                    <li id="list"> Never share any personal information, especially social security or tax ID numbers, account numbers, or login and password information via email or text.</li>
+                    <li id="list">Should you need to communicate sensitive information with your bank via email</li>
+                    <li id="list">be sure to use secure mail within the banks secure online banking platform.</li>
+                </ul></div>
+                <div><img src="https://cm-cdn.creditmantri.com/community/article/what-if-you-transfer-money-to-a-wrong-bank-account.jpg" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">3. Keep Your Passwords Secret</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Do not share passwords and do not leave any documents that contain access to financial data in an unsecured area </li>
+                    <li id="list"> Change your passwords regularly for better protection, using a combination of letters, numbers and special characters when possible.</li>
+                    <li id="list">Change your wireless network default password as well as the default SSID (name used to identify your network)</li>
+                    <li id="list">Don't broadcast your SSID and consider using encryption on your network</li>
+                </ul></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCI3ZZBnjHzsyxaINFWVpc0ugdRMq7dx5C3Q&s" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">4. Beware of phishing emails</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">emails are designed to prompt you to click links provided within the email to verify or change your account in some way </li>
+                    <li id="list"> Often, the links included in the email are ways for fraudsters to install malicious software (also called Malware) onto the computer or device you use to access your email</li>
+                    <li id="list"> This Malware can be used to obtain personal information</li>
+                </ul></div>
+                <div><img src="https://nordvpn.com/wp-content/uploads/line-phishing-site-1d-1200x628-1.png" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">5. Protect Your Computer</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Anti-spam software: Helps prevent spam and junk email from entering your inbox, which helps guard against phishing emails</li>
+                    <li id="list">Firewall: Helps prevent unauthorized access to your computer through viruses and malware</li>
+                    <li id="list"> Anti-spyware software: Blocks the installation of spyware on your computer, which can monitor or control your computer use and send you pop-ups or redirect you to malicious websites</li>
+                </ul></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXEQrQLxhEZBBgUKsQ9hAgmAQ1Vp2F1Ht6rQ&s" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvJoyp8ZRIlfZ4ChGzYF6-ejLZNfVAGoO5g&s" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <button style="background-color: #0082e6; color: white; font-size: 25px; margin-left: 50px; padding-left: 20px;padding-right: 20px; border: none;border-radius: 3px;">Back</button>
+    <br>
+    <br>
+</body>
+</html>

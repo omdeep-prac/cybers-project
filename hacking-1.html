@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .First{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sec-one{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #list{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+    margin: 10px 10px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 1050px) {
+  label.logo {
+    padding-left: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+/* Responsive media query code for small screen */
+@media (max-width: 890px) {
+  .checkbtn {
+    display: block;
+  }
+  label.logo {
+    font-size: 22px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked~ul {
+    left: 0;
+  }
+}
+section {
+  background: url("bg.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+    </style>
+</head>
+<body><nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo">Hacking</label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    </nav>
+    <div class="First"><div><h1 style="color:black; font-size: 50px;text-align: center; margin-right: 500px; margin-left: 500px;" >Hacking</h1><p style="font-size: 40px; margin-left: 20px; margin-right: 20px;" >Hacking in cyber security refers to the misuse of devices like computers, smartphones, tablets, and networks to cause damage to or corrupt systems, gather information on users, steal data and documents, or disrupt data-related activity.A traditional view of hackers is a lone rogue programmer who is highly skilled in coding and modifying computer software and hardware systems. But this narrow view does not cover the true technical nature of hacking.</p></div>
+    <div><img src="https://omdeep-prac.github.io/cybers-project/hack.avif" alt="Hacking image" height="450px" width="450px" style="margin-left: 50px; margin-right: 80px; margin-top: 75px;"></div>
+    </div>
+
+    <div><h1 style="text-align: center; font-size: 35px;">Tips to avoid hackers from hacking your account</h1></div>
+    <div class="second">
+        <div>
+            <h3 style="font-size: 30px;">1. Maintain Strong Password</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Your passwords for software accounts, social media accounts and other online services should be strong and unique</li>
+                    <li id="list"> They should be a combination of letters, numbers and symbols</li>
+                    <li id="list">Statistics show that 91% of people know reusing the same password across multiple accounts is a security risk, but 66% of us do it anyway.</li>
+                </ul></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyI1tGr8eNTwLsOpPWPNGRo9Ob9JPaDzZFFA&s" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">2. Set up and use Multi-Factor Authentication (MFA)</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Your online presence might still be vulnerable to threats even after implementing password vaults and managers. </li>
+                    <li id="list"> Picture your username and password as a double-locked door</li>
+                    <li id="list">Even if someone manages to pick one lock, still face another barrier. Multi-Factor Authentication (MFA) provides this extra layer of protection.</li>
+                    <li id="list">With MFA, a hacker armed with your credentials won’t get far</li>
+                </ul></div>
+                <div><img src="https://instasafe.com/blog/content/images/2022/10/What-is-Multi-Factor-Authentication-and-How-Does-it-Work_.webp" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">3. Be wary of suspicious emails</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">emails pose a security risk for businesses through cyberattacks via malicious email campaigns </li>
+                    <li id="list"> Cybercriminals know this and often use email as their weapon of choice</li>
+                    <li id="list">To avoid hackers and getting scammed, scrutinize the senders address—ensure it matches their domain.</li>
+                    <li id="list">Look for spelling and grammatical errors, as hackers are not always proficient wordsmiths.</li>
+                </ul></div>
+                <div><img src="https://intersys.co.uk/wp-content/uploads/Phishing-email-graphic-scaled.jpg" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">4. Install security updates for your system as soon as they launch</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">The regular software and firmware checks ensure that your system is up-to-date and secure from the latest threats (malware, botnets, viruses, ransomware, Trojans and others) </li>
+                    <li id="list"> Consider your system updates as your digital armor. They protect you from the latest threats concocted by hackers.</li>
+                    <li id="list"> Always install the latest patches and fixes recommended by your operating system vendor to keep your defenses up</li>
+                </ul></div>
+                <div><img src="https://www.matrixcomsec.com/wp-content/uploads/2021/08/Integrated-Security-Systems-Blog-Image.png" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">5. Avoid using public Wi-Fi</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">If you are at a coffee shop or hotel, do not share public information if you decide to use their Wi-Fi</li>
+                    <li id="list"> Whatever you do, do not think about purchasing a plane ticket or checking your bank statement while you are there.</li>
+                    <li id="list"> Public Wi-Fi networks can be digital minefields. They’re often targeted by hackers due to their high traffic volume.</li>
+                </ul></div>
+                <div><img src="wifi.jfif" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvJoyp8ZRIlfZ4ChGzYF6-ejLZNfVAGoO5g&s" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <button style="background-color: #0082e6; color: white; font-size: 25px; margin-left: 50px; padding-left: 20px;padding-right: 20px; border: none;border-radius: 3px;">Back</button>
+    <br>
+    <br>
+</body>
+</html>
