@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .First{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sec-one{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #list{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+    margin: 10px 10px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 1050px) {
+  label.logo {
+    padding-left: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+/* Responsive media query code for small screen */
+@media (max-width: 890px) {
+  .checkbtn {
+    display: block;
+  }
+  label.logo {
+    font-size: 22px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked~ul {
+    left: 0;
+  }
+}
+section {
+  background: url("bg.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+    </style>
+</head>
+<body><nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo">Cyber Bullying</label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    </nav>
+    <div class="First"><div><h1 style="color:black; font-size: 50px;text-align: center; margin-right: 500px; margin-left: 500px;" >CYBER BULLYING</h1><p style="font-size: 40px; margin-left: 20px; margin-right: 20px;" >Cyberbullying is bullying with the use of digital technologies. It can take place on social media, messaging platforms, gaming platforms and mobile phones. It is repeated behaviour, aimed at scaring, angering or shaming those who are targeted.</p></div>
+    <div><img src="https://omdeep-prac.github.io/cybers-project/virus.avif" alt="Hacking image" height="450px" width="450px" style="margin-left: 50px; margin-right: 80px; margin-top: 75px;"></div>
+    </div>
+
+    <div><h1 style="text-align: center; font-size: 35px;">Tips to avoid cyber-bullying</h1></div>
+    <div class="second">
+        <div>
+            <h3 style="font-size: 30px;">1.  EDUCATE YOURSELF</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">To prevent cyberbullying from occurring you must understand exactly what it is. Research what constitutes cyberbullying, as well as how and where it is most likely to occur. </li>
+                    <li id="list"> Talk to your friends about what they are seeing and experiencing.
+
+                    </li>
+                    
+                </ul></div>
+                <div><img src="cb1.jpg" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            </div>
+            <h3 style="font-size: 30px;">2. NEVER OPEN UNIDENTIFIED OR UNSOLICITED MESSAGES</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Never open messages (emails, texts, Facebook messages, etc.) from people you don’t know, or from those you know often bully others.</li>
+                    <li id="list"> Delete them without reading. They could contain viruses that automatically infect your device if opened. Also never click on links to pages that are sent from someone you don’t know. </li>
+                    <li id="list">These too could contain a virus designed to collect your personal or private information, or install a backdoor on your device.</li>
+                    
+                </ul></div>
+                <div><img src="cb2.jpg" alt="password image" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">3.PAUSE BEFORE YOU POST</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Do not post anything that may compromise your reputation. People will judge you based on how you appear to them online.  </li>
+                    <li id="list">They will also give or deny you opportunities (jobs, scholarships, internships) based on this.</li>
+                   
+                </ul></div>
+                <div><img src="cb3.jpg" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            </div>
+            <h3 style="font-size: 30px;">4.SETUP PRIVACY CONTROLS</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Restrict access to your online profile to trusted friends only. Most social networking sites like Facebook and Instagram offer you the ability to share certain information with friends only, but these settings must be configured in ordered to ensure maximum protection. </li>
+                    <li id="list"> Also don’t accept Snapchat friend requests from just anyone.
+
+                    </li>
+                    
+                </ul></div>
+                <div><img src="cb4.jpg" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+            </div>
+            <h3 style="font-size: 30px;">5.GOOGLE YOURSELF</h3>
+            <div class="sec-one">
+                <div><ul>
+                    <li id="list">Regularly search your name in every major search engine (e.g., Google, Bing, Yahoo).</li>
+                    <li id="list">If any personal
+                        information or content comes up which may be used by someone to target you, take action to have it removed before it becomes a problem.
+                        
+                        </li>
+                
+                </ul></div>
+                <div><img src="cb5.jpg" height="300px" width="450px"style="margin-left: 50px; margin-right: 80px;"></div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h4 style="font-size: 20px;">For more information :<a href="https://cybercrime.gov.in/webform/FAQ.aspx">Link</a></h4>
+    <button style="background-color: #0082e6; color: white; font-size: 25px; margin-left: 50px; padding-left: 20px;padding-right: 20px; border: none;border-radius: 3px;"><a style="background-color: #0082e6; color: white;" href="https://omdeep-prac.github.io/cybers-project/">Back</a></button>
+    <br>
+    <br>
+</body>
+</html>
